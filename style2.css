@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background: #002b5c;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.theme-toggle {
+  background: red;
+  color: whitesmoke;
+  border: 2px solid #002b5c;
+  border-radius: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 0px 0px 0px 10px;
+}
+
+.theme-toggle1{
+  background: rgb(57, 57, 255);
+  border: 2px solid #002b5c;
+  border-radius: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: whitesmoke;
+  font-weight: bold;
+  margin: 0px 0px 0px 10px;
+}
+
+body{
+  background: #383838;
+  font-family: 'Oswald', sans-serif;
+}
+
+table{
+  margin-top: 20px;
+}
+
+th{
+  padding: 0px 0px 0px 40px;
+}
+
+.th1{
+  padding: 0px 0px 0px 545px;
+}
+
+td{
+  border: 2px solid black;
+  transition: all 1s;
+}
+
+td:hover{
+  transition: all 1s;
+  background-color: rgba(0, 0, 255, 0.63);
+  border-radius: 0px 50px 0px 50px;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 255, 0.63);
+  transform: scale(1.1);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.img5{
+  margin: 10px 30px 10px 30px;
+}
+
+.img6{
+  margin: 10px 30px 10px 30px;
+}
+
+.img7{
+  margin: 10px 30px 10px 30px;
+}
+
+.img8{
+  margin: 10px 30px 10px 30px;
+}
+
+.img9{
+  margin: 10px 30px 10px 30px;
+}
+
+.img10{
+  margin: 10px 30px 10px 30px;
+}
+
+.img11{
+  margin: 10px 30px 10px 30px;
+}
+
+.img12{
+  margin: 10px 30px 10px 30px;
+}
+
+.img13{
+  margin: 10px 30px 10px 30px;
+}
+
+.img14{
+  margin: 10px 30px 10px 30px;
+}
+
+.img15{
+  margin: 10px 30px 10px 30px;
+}
+
+.bg-video {
+  width: 300px;
+  transition: filter 0.3s ease;
+  filter: grayscale(100%);
+}
+
+.bg-video:hover {
+  filter: grayscale(0%);
+}
+
